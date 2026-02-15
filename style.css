@@ -1,0 +1,85 @@
+/* Banner */
+.banner
+{
+background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+url('https://images.unsplash.com/photo-1454165804606-c3d57bc86b40');
+background-size: cover;
+background-position: center;
+padding: 100px;
+color: white;
+}
+
+
+/* Service box gradients */
+.service-box1
+{
+background: linear-gradient(to right, #00c6ff, #0072ff);
+color: white;
+padding: 40px;
+border-radius: 8px;
+transition: 0.3s;
+}
+
+.service-box2
+{
+background: linear-gradient(to right, #141e30, #243b55);
+color: white;
+padding: 40px;
+border-radius: 8px;
+transition: 0.3s;
+}
+
+
+/* Hover effect */
+.service-box1:hover,
+.service-box2:hover
+{
+transform: scale(1.05);
+box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+
+/* Icon */
+.icon
+{
+font-size: 40px;
+margin-bottom: 15px;
+}
+
+
+/* Cards */
+.card
+{
+transition: 0.3s;
+}
+
+.card:hover
+{
+transform: translateY(-10px);
+box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+
+/* Image size */
+.img-size
+{
+height: 220px;
+object-fit: cover;
+}
+
+
+/* Footer */
+footer
+{
+background: linear-gradient(to right, #141e30, #243b55);
+padding: 40px;
+margin-top: 50px;
+}
+
+
+/* Navbar */
+.navbar-brand
+{
+font-weight: bold;
+font-size: 24px;
+}
